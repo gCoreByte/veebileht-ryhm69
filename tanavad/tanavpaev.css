@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, serif;
+    color: black;
+    background-color: white;
+}
+
+#tutvustus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#pealkirjad {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    line-height: 0;
+}
+
+#nimi {
+    padding-top: 10%;
+}
+
+#oovaade {
+    margin-top: 20%;
+}
+
