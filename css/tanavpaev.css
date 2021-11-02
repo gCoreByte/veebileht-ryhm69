@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, serif;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+}
+
+.flex-container {
+    width: 100%;
+    max-width: 1080px;
+    max-height: 800px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+
+#pilt {
+    max-height: 250px;
+    max-width: 100%;
+    height: auto;
+}
+
+#pealkirjad {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 0;
+}
+
+#nimi {
+    padding-top: 10%;
+    word-wrap: break-word;
+}
+
+#oovaade {
+    margin-top: 20px;
+    margin-bottom: 20%;
+}
+
