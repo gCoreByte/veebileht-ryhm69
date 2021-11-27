@@ -1,5 +1,6 @@
 body {
-    font-family: Copperplate, Papyrus, serif;
+    font-family: Cursive;
+    font: Lucida Handwriting;
     color: black;
     background-color: white;
     display: flex;
@@ -8,6 +9,9 @@ body {
     margin-right: 5%;
     align-items: center;
     background-image: url(https://cdn.wallpapersafari.com/37/91/CaR1kW.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 .flex-container {

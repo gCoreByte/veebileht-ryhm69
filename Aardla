@@ -4,20 +4,20 @@
     <script src="scripts/nupp.js"></script>
     <link rel="stylesheet" href="css/tanavpaev.css">
     <meta charset="UTF-8">
-    <title>Tänava nimi</title>
+    <title>Aardla</title>
 </head>
 
 <body onload="getCookie()">
   <div class="flex-container">
     <div id="pealkirjad">
-      <h1 id="nimi">Tänava nimi</h1>
+      <h1 id="nimi">Aardla</h1>
       <h4 id="alapealkiri">Miks tänav on eriline</h4>
        <button id="oovaade">Vaate muutus</button>
   </div>
     <!--
     https://stackoverflow.com/questions/11722400/programmatically-change-the-src-of-an-img-tag
     -->
-    <img id="pilt" src="pildid/temp_image.jpg" alt="Pilt">
+    <img id="pilt" src="pildid/aardla.jpg" alt="Pilt">
   </div>
   
   <div class="flex-container">
