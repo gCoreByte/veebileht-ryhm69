@@ -27,6 +27,12 @@ body {
 
 #pilt {
     max-height: 350px;
+    max-width: 100%
+    height: auto;
+}
+
+#pilt2 {
+    max-height: 350px;
     max-width: 100%;
     height: auto;
 }
