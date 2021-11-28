@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="scripts/nupp.js"></script>
+    <link rel="stylesheet" href="css/tanavpaev.css">
+    <meta charset="UTF-8">
+    <title>Herne tänav</title>
+</head>
+
+<body onload="getCookie()">
+  <div class="flex-container">
+    <div id="pealkirjad">
+      <h1 id="nimi">Herne tänav</h1>
+      <h4 id="alapealkiri">Miks tänav on eriline</h4>
+       <button id="oovaade">Vaate muutus</button>
+  </div>
+    <!--
+    https://stackoverflow.com/questions/11722400/programmatically-change-the-src-of-an-img-tag
+    -->
+    <img id="pilt" src="pildid/herne.jfif" alt="Pilt">
+  </div>
+  
+  <div class="flex-container">
+    <div>
+      <h2>Fakte tänava kohta</h2>
+      <ul id="faktid">
+        <li>Pikkus 850m</li>
+        <li>Tänaval tegutseb Herne pood</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Tänava kirjeldus</h2>
+      <p id="kirjeldus">Herne tänav algab Kroonuaia tänavalt ning kulgeb loodesse, kus see lõpeb Kauna tänaval. Tänav ristub Kartuli, Marja, Meloni ja Piiri tämnavatega. Tänaval tegutsev Herne pood on üks Tartu tuntumaid väikekauplusi.</p>
+    </div>
+  </div>
+  <div id="arvamused" class="flex-container">
+    <!--
+    TODO
+    -->
+  </div>
+  <div class="sidenav">
+    <a href="#Aardla">Aardla</a>
+    <a href="#Emajõe">Emajõe</a>
+    <a href="#Herne">Herne</a>
+    <a href="#Puiestee">Puiestee</a>
+    <a href="#Riia">Riia</a>
+    <a href="#Roosi">Roosi</a>
+    <a href="#Rüütli">Rüütli</a>
+  </div>
+
+</body>
+</html>
