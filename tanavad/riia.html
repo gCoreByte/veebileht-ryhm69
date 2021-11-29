@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="../scripts/nupp.js"></script>
+    <script src="../scripts/nightmode.js"></script>
     <link rel="stylesheet" href="../css/tanavpaev.css">
     <meta charset="UTF-8">
     <title>Riia tänav</title>
 </head>
 
-<body onload="getCookie()">
+<body onload="setBackgroundOnLoad()">
   <!--
   Sidenav
   -->
@@ -25,7 +25,7 @@
     <div id="pealkirjad">
       <h1 id="nimi">Riia tänav</h1>
       <h4 id="alapealkiri">Rohke ajaloolise taustaga peatänav</h4>
-       <button id="oovaade">Vaate muutus</button>
+      <button id="oovaade" onclick="flipCookie()">Vaate muutus</button>
   </div>
     <!--
     https://stackoverflow.com/questions/11722400/programmatically-change-the-src-of-an-img-tag

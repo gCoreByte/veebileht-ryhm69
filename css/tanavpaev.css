@@ -1,14 +1,13 @@
 body {
     margin-left: 150px;
-    font-family: Cursive;
-    font: Lucida Handwriting;
+    font-family: Georgia, serif;
     color: black;
-    background-color: white;
+    background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
     margin-right: max(150px, 5%);
     align-items: center;
-    background-image: url(https://cdn.wallpapersafari.com/37/91/CaR1kW.jpg);
+    /* background-image: url(https://cdn.wallpapersafari.com/37/91/CaR1kW.jpg); */
     height: 100%;
     max-width: 1080px;
     max-height: 800px;

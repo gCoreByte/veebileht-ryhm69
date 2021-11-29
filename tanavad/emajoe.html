@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="../scripts/nupp.js"></script>
+    <script src="../scripts/nightmode.js"></script>
     <link rel="stylesheet" href="../css/tanavpaev.css">
     <meta charset="UTF-8">
     <title>Emajõe tänav</title>
 </head>
 
-<body onload="getCookie()">
+<body onload="setBackgroundOnLoad()">
   <!--
   Sidenav
   -->
@@ -25,13 +25,13 @@
     <div id="pealkirjad">
       <h1 id="nimi">Emajõe tänav</h1>
       <h4 id="alapealkiri">Tänav mis kulgeb mööda Emajõe äärt</h4>
-       <button id="oovaade">Vaate muutus</button>
+      <button id="oovaade" onclick="flipCookie()">Vaate muutus</button>
   </div>
     <!--
     https://stackoverflow.com/questions/11722400/programmatically-change-the-src-of-an-img-tag
     -->
-    <img id="pilt" src="../pildid/emajoepilt.jfif" alt="Pilt" width = "400">
-    <img id="pilt2" src="../pildid/emajoe.png" alt="Pilt2" width = "350">
+    <img id="pilt" src="../pildid/emajoepilt.jfif" alt="Pilt">
+    <img id="pilt2" src="../pildid/emajoe.png" alt="Pilt2">
   </div>
   
   <div class="flex-container">

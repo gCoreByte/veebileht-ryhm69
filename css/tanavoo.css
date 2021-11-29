@@ -1,28 +1,39 @@
 body {
-    font-family: Arial, serif;
-    color: black;
-    background-color: white;
+    margin-left: 150px;
+    font-family: Georgia, serif;
+    color: #F5F5F5;
+    background-color: #2A2B2E;
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-right: max(150px, 5%);
     align-items: center;
+    /* background-image: url(https://cdn.wallpapersafari.com/37/91/CaR1kW.jpg); */
+    height: 100%;
+    max-width: 1080px;
+    max-height: 800px;
+
+
 }
 
 .flex-container {
     width: 100%;
-    max-width: 1080px;
-    max-height: 800px;
     flex-wrap: wrap;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
     padding-top: 50px;
+    margin-left: 150px;
 }
 
 
 #pilt {
-    max-height: 250px;
+    max-height: 350px;
+    max-width: 100%;
+    height: auto;
+}
+
+#pilt2 {
+    max-height: 350px;
     max-width: 100%;
     height: auto;
 }
@@ -44,4 +55,32 @@ body {
     margin-top: 20px;
     margin-bottom: 20%;
 }
+
+.sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+
 

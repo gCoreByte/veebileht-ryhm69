@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="../scripts/nupp.js"></script>
+    <script src="../scripts/nightmode.js"></script>
     <link rel="stylesheet" href="../css/tanavpaev.css">
     <meta charset="UTF-8">
     <title>Aardla</title>
 </head>
 
-<body onload="getCookie()">
+<body onload="setBackgroundOnLoad()">
   <!--
   Sidenav
   -->
@@ -21,11 +21,12 @@
     <a href="roosi.html">Roosi</a>
     <a href="ruutli.html">Rüütli</a>
   </div>
+
   <div class="flex-container">
     <div id="pealkirjad">
       <h1 id="nimi">Aardla</h1>
       <h4 id="alapealkiri">Miks tänav on eriline</h4>
-       <button id="oovaade">Vaate muutus</button>
+      <button id="oovaade" onclick="flipCookie()">Vaate muutus</button>
   </div>
     <!--
     https://stackoverflow.com/questions/11722400/programmatically-change-the-src-of-an-img-tag
