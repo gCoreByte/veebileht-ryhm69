@@ -26,17 +26,13 @@ body {
 }
 
 
-#pilt {
+.pilt {
     max-height: 350px;
     max-width: 100%;
     height: auto;
+    margin: 10px;
 }
 
-#pilt2 {
-    max-height: 350px;
-    max-width: 100%;
-    height: auto;
-}
 
 #pealkirjad {
     display: flex;
