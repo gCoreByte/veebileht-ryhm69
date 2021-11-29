@@ -4,12 +4,12 @@
 const lightref = document.createElement("link");
 lightref.rel = "stylesheet";
 lightref.type = "text/css";
-lightref.href = "../css/colorday.css";
+lightref.href = "https://kodu.ut.ee/~martinha/css/colorday.css";
 
 const darkref = document.createElement("link");
 darkref.rel = "stylesheet";
 darkref.type = "text/css";
-darkref.href = "../css/colornight.css";
+darkref.href = "https://kodu.ut.ee/~martinha/css/colornight.css";
 
 
 // funktsioon setBackgroundOnLoad() laeb veebilehe laadimisel õige css faili
