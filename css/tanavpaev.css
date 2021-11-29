@@ -1,22 +1,23 @@
 body {
+    margin-left: 150px;
     font-family: Cursive;
     font: Lucida Handwriting;
     color: black;
     background-color: white;
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-right: max(150px, 5%);
     align-items: center;
     background-image: url(https://cdn.wallpapersafari.com/37/91/CaR1kW.jpg);
     height: 100%;
+    max-width: 1080px;
+    max-height: 800px;
+
 
 }
 
 .flex-container {
     width: 100%;
-    max-width: 1080px;
-    max-height: 800px;
     flex-wrap: wrap;
     justify-content: space-between;
     display: flex;
