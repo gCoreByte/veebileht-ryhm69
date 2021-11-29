@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, serif;
+    font-family: Cursive;
+    font: Lucida Handwriting;
     color: black;
     background-color: white;
     display: flex;
@@ -7,6 +8,9 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     align-items: center;
+    background-image: url(https://cdn.wallpapersafari.com/37/91/CaR1kW.jpg);
+    height: 100%;
+
 }
 
 .flex-container {
@@ -22,7 +26,13 @@ body {
 
 
 #pilt {
-    max-height: 250px;
+    max-height: 350px;
+    max-width: 100%
+    height: auto;
+}
+
+#pilt2 {
+    max-height: 350px;
     max-width: 100%;
     height: auto;
 }
@@ -44,4 +54,32 @@ body {
     margin-top: 20px;
     margin-bottom: 20%;
 }
+
+.sidenav {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+
 
