@@ -4,9 +4,9 @@ lightref.type = "text/css";
 lightref.href = "../css/tanavpaev.css";
 
 const darkref = document.createElement("link");
-lightref.rel = "stylesheet";
-lightref.type = "text/css";
-lightref.href = "../css/tanavoo.css";
+darkref.rel = "stylesheet";
+darkref.type = "text/css";
+darkref.href = "../css/tanavoo.css";
 
 
 
@@ -26,7 +26,7 @@ function getCookie() {
     // https://stackoverflow.com/questions/5968196/how-do-i-check-if-a-cookie-exists
     let value_or_null = (document.cookie.match(/^(?:.*;)?\s*currentMode\s*=\s*([^;]+)(?:.*)?$/)||[,null])[1];
     if (value_or_null == null) {
-        document.cookie = "currentMode=dark";
+        document.cookie = "currentMode=dark;path=/";
         value_or_null = "dark";
     }
     return value_or_null;
@@ -35,11 +35,11 @@ function getCookie() {
 function flipCookie() {
     let value = getCookie();
     if (value === "light") {
-        document.cookie = "currentMode=dark";
+        document.cookie = "currentMode=dark;path=/";
         location.reload();
     }
     else {
-        document.cookie = "currentMode=light";
+        document.cookie = "currentMode=light;path=/";
         location.reload();
     }
 }
