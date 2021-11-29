@@ -1,8 +1,8 @@
 body {
     margin-left: 150px;
     font-family: Georgia, serif;
-    color: black;
-    background-color: #F5F5F5;
+    color: #F5F5F5;
+    background-color: #2A2B2E;
     display: flex;
     flex-direction: column;
     margin-right: max(150px, 5%);
@@ -11,6 +11,7 @@ body {
     height: 100%;
     max-width: 1080px;
     max-height: 800px;
+
 
 }
 
@@ -26,12 +27,11 @@ body {
 
 
 .pilt {
-    max-height: 350px;
+    max-height: 300px;
     max-width: 100%;
     height: auto;
     margin: 10px;
 }
-
 
 #pealkirjad {
     display: flex;
@@ -52,30 +52,27 @@ body {
 }
 
 .sidenav {
-  height: 100%;
-  width: 150px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
 .sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #818181;
-  display: block;
-  border: none;
-  background: none;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
 }
-
-
-
