@@ -1,10 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ee">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Tartu tänavate reiting</title>
+    <script src="/scripts/nightmode.js"></script>
 </head>
-<body>
+<body onload="setBackgroundOnLoad()">
+    <div class="sidenav">
+        <a href="index.html">Avaleht</a>
+        <a href="tanavad/aardla.html">Aardla</a>
+        <a href="tanavad/emajoe.html">Emajõe</a>
+        <a href="tanavad/herne.html">Herne</a>
+        <a href="tanavad/puiestee.html">Puiestee</a>
+        <a href="tanavad/riia.html">Riia</a>
+        <a href="tanavad/roosi.html">Roosi</a>
+        <a href="tanavad/ruutli.html">Rüütli</a>
+    </div>
 
+    <div class="flex-container">
+        <h1>Tartu tänavad</h1>
+        <img src="pildid/tartutnv.png" alt="Tartu tänavate kaart">
+        <p>
+            Tartus on Wikipedia andmetel ligikaudu 500 tänavat. Me tegime selle lehekülje, et mõnega neist tutvuda
+            lähemalt. Loodan, et naudite!
+        </p>
+        <br>
+        Martin Hans Keskküla, Lauri Lepik, Jaan Kupri
+        <br>
+        Lehe haldaja kontakt: martin.hans.keskkula@ut.ee
+    </div>
+    <br>
+    <button id="oovaade" onclick="flipCookie()">Vaate muutus</button>
 </body>
 </html>
