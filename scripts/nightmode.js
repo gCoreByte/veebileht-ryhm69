@@ -1,3 +1,6 @@
+// Siin failis on kogu öörežiimi kood
+
+// paneme paika päeva ja öö lingid, et saaks neid laadida html faili sisse kui vaja
 const lightref = document.createElement("link");
 lightref.rel = "stylesheet";
 lightref.type = "text/css";
@@ -9,7 +12,7 @@ darkref.type = "text/css";
 darkref.href = "../css/tanavoo.css";
 
 
-
+// funktsioon setBackgroundOnLoad() laeb veebilehe laadimisel õige css faili
 function setBackgroundOnLoad() {
     // https://stackoverflow.com/questions/2099517/how-to-load-in-an-external-css-file-dynamically
     value = getCookie()
@@ -21,7 +24,7 @@ function setBackgroundOnLoad() {
     }
 }
 
-
+// getCookie() tagastab hetkelise küpsise väärtuse või loob selle defaultides öörežiimile
 function getCookie() {
     // https://stackoverflow.com/questions/5968196/how-do-i-check-if-a-cookie-exists
     let value_or_null = (document.cookie.match(/^(?:.*;)?\s*currentMode\s*=\s*([^;]+)(?:.*)?$/)||[,null])[1];
@@ -32,6 +35,7 @@ function getCookie() {
     return value_or_null;
 }
 
+// flipCookie() vahetab ära küpsise väärtuse kui nupule vajutatakse
 function flipCookie() {
     let value = getCookie();
     if (value === "light") {
