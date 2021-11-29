@@ -22,12 +22,13 @@ body {
     display: flex;
     flex-direction: row;
     padding-top: 50px;
+    margin-left: 150px;
 }
 
 
 #pilt {
     max-height: 350px;
-    max-width: 100%
+    max-width: 100%;
     height: auto;
 }
 
